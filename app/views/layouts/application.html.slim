@@ -1,0 +1,11 @@
+doctype html
+html
+  head
+    title Nepal
+    = csrf_meta_tags
+    = stylesheet_link_tag    'application', media: 'all'
+
+  body
+    = render 'shared/menu'
+    = yield
+    = javascript_include_tag 'application', media: 'all'

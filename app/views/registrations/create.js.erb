@@ -1,0 +1,12 @@
+<% if flash[:message].present? %>
+  $('.form_registration ul').remove();
+  $('.form_registration').prepend("<%= escape_javascript(render('message')) %>");
+  <% if flash[:message]=='Отправлено успешно' %>
+    $('input:not(type[submit])').val('')
+    <% end %>
+<% else %>
+  <% if @reg.errors.any? %>
+    $('.form_registration ul').remove();
+    $(".form_registration").prepend("<%= escape_javascript(render('error')) %>");
+  <% end %>
+<% end %>
