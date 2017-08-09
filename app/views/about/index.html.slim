@@ -1,0 +1,39 @@
+.about_wrapper.clearfix
+  .wrapper.retreat
+    .about_me
+      h3 Обо мне
+      = image_tag 'face.jpg', class: 'avatar_face'
+      p Почти 30 лет по всему миру я искал возможность и умение, как поделиться тем, что есть у меня с раннего детства. Средняя и Восточная Азия, Индия, Гималаи, Южная Америка, Кавказские горы, побережья всех океанов и многих морей - привели меня к Вам. Встречи с тибетскими ламами, индейскими шаманами, мудрецами и йогами Индии, даосскими мастерами, многими учителями и великими душами - вдохновили на эту деятельность, которой я счастлив заниматься. Я обучаю людей со всего мира осознанно выходить из физического тела в астральную проекцию. Обучаю осознавать себя во сне и на Яву. Устраиваю семинары и ретриты с целью исцеления различных недугов, преодоления страха, а главное возобновления ощущения единства. Делюсь радостью жизни и великолепием момента.
+.wrapper
+  h3 Обратная связь
+  .feadback_list
+    - @feadback.each_with_index do |feadback, index|
+      - if index != 0
+        .bord = image_tag 'divider.png'
+      .feadback_item
+        = image_tag feadback.avatar.url(:thumb), class: 'feadback_avatar'
+        - if feadback.title.present?
+          span.title = feadback.title
+        .name_user
+          span.name = feadback.name
+          span.date = l feadback.created_at, format: :long
+        p.description = feadback.description
+.feadback_wrapper
+  .feadback_form
+    h3 Оставить отзыв
+    = form_for @reg, url: feadbacks_path, remote: true do |f|
+      = hidden_field_tag :authenticity_token, form_authenticity_token
+      .field
+        = f.label 'Аватар:'
+        = f.file_field :avatar
+      .field
+        = f.label 'Заголовок:'
+        = f.text_field :title, placeholder: 'пример: После семинара в Москве'
+      .field
+        = f.label '*ФИО:'
+        = f.text_field :name, placeholder: 'пример: Василий Петров'
+      .field
+        = f.label '*Текст:'
+        = f.text_area :description
+      .submit_fild
+        = f.submit 'Отправить'

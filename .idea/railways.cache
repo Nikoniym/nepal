@@ -24,6 +24,7 @@ batch_action_admin_tour_programs POST       /admin/tour_programs/batch_action(.:
                    admin_gallery PATCH      /admin/galleries/:id(.:format)              admin/galleries#update
                                  PUT        /admin/galleries/:id(.:format)              admin/galleries#update
                                  DELETE     /admin/galleries/:id(.:format)              admin/galleries#destroy
+           jcropper_admin_banner PUT        /admin/banners/:id/jcropper(.:format)       admin/banners#jcropper
       batch_action_admin_banners POST       /admin/banners/batch_action(.:format)       admin/banners#batch_action
                    admin_banners GET        /admin/banners(.:format)                    admin/banners#index
                                  POST       /admin/banners(.:format)                    admin/banners#create
@@ -50,6 +51,15 @@ batch_action_admin_registrations POST       /admin/registrations/batch_action(.:
               admin_registration PATCH      /admin/registrations/:id(.:format)          admin/registrations#update
                                  PUT        /admin/registrations/:id(.:format)          admin/registrations#update
                                  DELETE     /admin/registrations/:id(.:format)          admin/registrations#destroy
+         jcropper_admin_feadback PUT        /admin/feadbacks/:id/jcropper(.:format)     admin/feadbacks#jcropper
+    batch_action_admin_feadbacks POST       /admin/feadbacks/batch_action(.:format)     admin/feadbacks#batch_action
+                 admin_feadbacks GET        /admin/feadbacks(.:format)                  admin/feadbacks#index
+                                 POST       /admin/feadbacks(.:format)                  admin/feadbacks#create
+              new_admin_feadback GET        /admin/feadbacks/new(.:format)              admin/feadbacks#new
+             edit_admin_feadback GET        /admin/feadbacks/:id/edit(.:format)         admin/feadbacks#edit
+                  admin_feadback PATCH      /admin/feadbacks/:id(.:format)              admin/feadbacks#update
+                                 PUT        /admin/feadbacks/:id(.:format)              admin/feadbacks#update
+                                 DELETE     /admin/feadbacks/:id(.:format)              admin/feadbacks#destroy
                   admin_comments GET        /admin/comments(.:format)                   admin/comments#index
                                  POST       /admin/comments(.:format)                   admin/comments#create
                    admin_comment GET        /admin/comments/:id(.:format)               admin/comments#show
@@ -73,7 +83,9 @@ batch_action_admin_registrations POST       /admin/registrations/batch_action(.:
                                  POST       /galleries(.:format)                        galleries#create
                          gallery DELETE     /galleries/:id(.:format)                    galleries#destroy
                    registrations POST       /registrations(.:format)                    registrations#create
+                       feadbacks POST       /feadbacks(.:format)                        feadbacks#create
                    retreat_index GET        /retreat(.:format)                          retreat#index
                      about_index GET        /about(.:format)                            about#index
+                                 POST       /about(.:format)                            about#create
                       home_index GET        /home/index(.:format)                       home#index
                             root GET        /                                           home#index

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="nepal@localhost" uuid="8e3093d4-7287-4477-811f-0ebc4cff0442">
+      <database-info product="PostgreSQL" version="9.5.7" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.1.1">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>nik</user-name>
+      <introspection-schemas>nepal:public</introspection-schemas>
+    </data-source>
+  </component>
+</project>

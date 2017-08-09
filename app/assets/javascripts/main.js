@@ -112,8 +112,21 @@ $(document).ready(function (){
         });
     });
 
-});
+    if ($(window).width() > 1920) {
+        $('header .slick-slide img').width('100%');
+    } else {
+        $('header .slick-slide img').width('auto');
+    }
 
+});
+$(window).resize(function() {
+    if ($(window).width() > 1920) {
+        $('.slick-slide img').width('100%');
+    } else {
+        $('.slick-slide img').width('auto');
+    }
+});
 $(window).on("load",function(){
     $('header .line').fadeIn();
+    $('header .fade').animate({opacity: 1},500);
 });

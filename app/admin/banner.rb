@@ -2,6 +2,7 @@ ActiveAdmin.register Banner do
   actions :all, :except => [:show]
   permit_params :image, :position
   config.sort_order = 'position'
+  jcropable
 
   index do
     column :image do |banner|
@@ -13,7 +14,7 @@ ActiveAdmin.register Banner do
 
   form do |f|
     f.inputs do
-      f.input :image
+      f.input :image, as: :jcropable,  jcrop_options: {aspectRatio: 19.2/6.8, showDimensions: true}
       f.input :position
       f.actions
     end

@@ -46,6 +46,8 @@ gem 'active_skin'
 gem 'dropzonejs-rails'
 gem 'jquery-mousewheel-rails'
 gem 'social-share-button'
+gem 'active_admin_jcrop'
+gem 'dotenv-rails'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -63,6 +65,16 @@ group :development do
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
   gem 'letter_opener'
+end
+
+group :development do
+  gem 'capistrano', require: false
+  gem 'capistrano-bundler', require: false
+  gem 'capistrano-rails', require: false
+  gem 'capistrano-rvm', require: false
+  gem 'capistrano-rails-collection', require: false
+  gem 'capistrano-rails-console', require: false
+  gem 'capistrano-logtail', require: false
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

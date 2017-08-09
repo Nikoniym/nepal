@@ -1,0 +1,9 @@
+<% if @reg.errors.any? %>
+  $('.new_feadback ul').remove();
+  $(".new_feadback").prepend("<%= escape_javascript(render('registrations/error')) %>");
+  <% else %>
+  $('.new_feadback ul').remove();
+  $('.new_feadback').prepend("<%= escape_javascript(render('registrations/message')) %>");
+  $('input:not(type[submit])').val('')
+  $('textarea').val('')
+<% end %>

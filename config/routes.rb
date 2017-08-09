@@ -5,8 +5,9 @@ Rails.application.routes.draw do
 
   resources :galleries, only: [:index, :create, :destroy]
   resources :registrations, only: :create
+  resources :feadbacks, only: :create
   resources :retreat, only: :index
-  resources :about, only: :index
+  resources :about, only: [:index, :create]
 
   get 'home/index'
   root to: 'home#index'
