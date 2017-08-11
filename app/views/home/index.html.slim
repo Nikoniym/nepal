@@ -36,40 +36,39 @@ header
   #price
     .wrapper
       h3 стоимость тура
-      h6 Стоимость участия в туре — 1320$.
+      h6 Стоимость участия в 15-дневном туре – 1320$
       .cont
         .pull-left
           p.head В стоимость тура входит:
           ul
-            li Трансфер от аэропорта
-            li Проживание в номерах
-            li 3х разовое питание и специально разработанные детокс коктейли
-            li Практики хатха йоги, ци-гун и медитации
-            li Экскурсии
+            li Проживание и питание во всех населённых пунктах
+            li Транспортировка на самолёте, джипах  и автобусах из города в город.
+            li Недельный ретрит “Сновидение как Исцеление”
+
         .pull-right
           p.head Не входит в стоимость:
           ul
             li
-              | Авиа билеты до Катманду и обратно.
-              | Билеты можно заказать
-              a href="https://avia.yandex.ru/order/?fromId=c213&fromName=%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0&toId=c11513&toName=%D0%94%D0%B5%D0%BD%D0%BF%D0%B0%D1%81%D0%B0%D1%80&when=06+%D0%BD%D0%BE%D1%8F&return_date=17+%D0%BD%D0%BE%D1%8F&lang=ru&variants=a17203d212293e18ee016430b3943779%2Ced1016074c017c0b5424597bd2cb4459%2Cdf75a4f471198857841447c6928694fd%2C313045aae974c63e33c742c5bc25b183%2Cbcdfe8a3e19cbf36c8e76e7baca564dd%2C288a3c9c9b0ed31f706583653a716c72%2Cfbbd029ec0afd2821aa360ec06aa1582%2C296b30482e9d38dc1030fc32c22967c3%2Cb4c94ce3e0e0d7331408055a8cf66206&dexp_card_clc=comfy" target="_blank"  здесь
-            li Внеплановые экскурсии.
+              | Авиа билеты до Катманду и Непала.
+              |  Билеты можно заказать
+              a href=" https://www.skyscanner.ru/transport/flights/mosc/ktm/171010/171025/airfares-from-moscow-to-kathmandu-in-october-2017.html?adults=1&children=0&adultsv2=1&childrenv2=&infants=0&cabinclass=economy&rtn=1&preferdirects=false&outboundaltsenabled=false&inboundaltsenabled=false#details/11051-1710101410--32714-1-13288-1710110935|13288-1710252340--32714-1-11051-1710261320" target="_blank"  здесь
+            li Визовые сборы в размере 25$ на 15 дней*
+        p.star * Виза делается по прилету в аэропорт города Катманду.
       .foot
-        p Для окончательного закрепления за вами места в туре необходима предоплата в размере 300$.
+        p Максимальное количество человек в группе – 10.
+        p Для закрепления за собой места в туре необходима предоплата в размере 320$, которая позволяет совершенно точно приобрести авиабилет на рейс Покхара-Джомсом.
         p При отказе от тура предоплата не возвращается.
-        p Реквизиты для оплаты мы пришлём в личном сообщении.
-        p Полную стоимость тура необходимо оплатить до 1 ноября  2016 года.
+        p Реквизиты для оплаты мы пришлем в личном сообщении.
+        p Полную стоимость тура необходимо оплатить за 10 дней до выбранного Вами тура.
 footer#down
   .wrapper
     .contact
       h3 контакты
       a href="https://vk.com/id276630721" target="_blank" title=("Перейти на страниу Вконтакте")
-        .img
+        .img data-aos="zoom-out"
           = image_tag 'avatar.jpg'
       a href="http://negayoga.com/" target="_blank" title=("Перейти на страниу Facebook")
-        h6 Тур проводит мастер цигун
-        h6 Дмитрий Брякин
-
+        h6 Тур проводит Дмитрий Брякин
     .reg
       h3 Подать заявку на тур
 
@@ -86,4 +85,4 @@ footer#down
       .otz
         p Если вам в течении суток не приходит ответ, отправьте, пожалуйста, повторную заявку на электронную почту dreamingashealing@gmail.com
       p.shared Поделиться в социальных сетях:
-      = social_share_button_tag('Hadsfasdfdasf', :url => request.original_url, :image => Banner.first.image.url, :'data-type' => 'photo', desc: "The summary of page sdf as fsdafsdf a", via: "MyTwitterName")
+      = social_share_button_tag('Тур Мечты в Непал', :url => request.original_url, :image => 'http://localhost:3000/assets/logo-a0d907fd65bc811accf57c527c36dbe5dd500dd79999979339cbc864b6440abf.png',  desc: "The summary of page sdf as fsdafsdf a")

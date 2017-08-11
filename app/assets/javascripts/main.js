@@ -100,7 +100,7 @@ $(document).ready(function (){
             gallery_width:"100%",
             tile_border_color:"#7a7a7a",
             tile_outline_color:"#8B8B8B",
-            tile_enable_shadow:true,
+
             tile_overlay_opacity:0.3,
 
             tile_image_effect_type:"sepia",
@@ -108,7 +108,7 @@ $(document).ready(function (){
 
             lightbox_textpanel_title_color:"e5e5e5",
             tiles_col_width:230,
-            tiles_space_between_cols:20
+            tiles_space_between_cols:15
         });
     });
 
@@ -118,6 +118,10 @@ $(document).ready(function (){
         $('header .slick-slide img').width('auto');
     }
 
+    AOS.init({
+        easing: 'ease-in-out-sine',
+        duration: 500
+    });
 });
 $(window).resize(function() {
     if ($(window).width() > 1920) {

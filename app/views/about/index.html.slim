@@ -10,7 +10,7 @@
     - @feadback.each_with_index do |feadback, index|
       - if index != 0
         .bord = image_tag 'divider.png'
-      .feadback_item
+      .feadback_item data-aos="fade-up"
         = image_tag feadback.avatar.url(:thumb), class: 'feadback_avatar'
         - if feadback.title.present?
           span.title = feadback.title

@@ -2,7 +2,7 @@
   .wrapper
     h3 программа тура
     - @tour_program.each do |item|
-      .box
+      .box data-aos="fade-up"
         = image_tag item.image.url(:thumb)
         .b
         .text
