@@ -1,11 +1,11 @@
-role :app, %w{nik@95.85.37.216}
-role :web, %w{nik@95.85.37.216}
-role :db, %w{nik@95.85.37.216}
-# role :db, %w{nik@95.85.37.216}
+role :app, %w{nik@95.85.27.160}
+role :web, %w{nik@95.85.27.160}
+role :db, %w{nik@95.85.27.160}
+# role :db, %w{nik@95.85.27.160}
 
 set :rails_env, :production
 
-server "95.85.37.216", user: "nik", roles: %w(app db web), primary: true
+server "95.85.27.160", user: "nik", roles: %w(app db web), primary: true
 
 set :ssh_options, {
     keys: %w(~/.ssh/id_rsa),

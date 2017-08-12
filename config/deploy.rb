@@ -7,7 +7,7 @@ set :repo_url, "https://github.com/Nikoniym/nepal.git"
 set :stage, :production
 set :git_enable_submodules, 1
 # Default deploy_to directory is /var/www/my_app_name
-set :deploy_to, "/home/nik/nepal"
+set :deploy_to, "/home/nik/deploy"
 set :deploy_user, 'nik'
 set :console_env, :production
 set :console_user, 'nik'
@@ -27,7 +27,7 @@ set :logtail_lines, 50
 # set :pty, true
 
 # Default value for :linked_files is []
-append :linked_files, "config/database.yml", ".env"
+append :linked_files, "config/database.yml"
 
 # Default value for linked_dirs is []
 append :linked_dirs,  "log", "tmp/pids", "tmp/cache", "tmp/sockets", "public/system", "vendor/bundle", "public/uploads"
@@ -40,7 +40,7 @@ append :linked_dirs,  "log", "tmp/pids", "tmp/cache", "tmp/sockets", "public/sys
 
 # Default value for keep_releases is 5
 # set :keep_releases, 5
-before :deploy, 'git:deploy'
+# before :deploy, 'git:deploy'
 
 namespace :deploy do
   desc 'Restart application'
