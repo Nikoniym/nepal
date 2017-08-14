@@ -3,4 +3,11 @@ class Registration < ApplicationRecord
             :numericality => true,
             :length => { :minimum => 10, :maximum => 15 }, if:  Proc.new{|c| c.phone.present?}
   validates_format_of :email, :with => /\A([^@\s]+)@((?:[-a-z0-9]+\.)+[a-z]{2,})\z/i, if:  Proc.new{|c| c.email.present?}
+
+  after_save :change_notification
+
+  private
+  def change_notification
+    RegistrationMailer.send_mail(self).deliver
+  end
 end

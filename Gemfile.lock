@@ -119,6 +119,9 @@ GEM
       responders
       warden (~> 1.2.3)
     dotenv (2.2.1)
+    dotenv-rails (2.2.1)
+      dotenv (= 2.2.1)
+      railties (>= 3.2, < 5.2)
     dropzonejs-rails (0.7.3)
       rails (> 3.1)
     erubi (1.6.1)
@@ -321,6 +324,7 @@ DEPENDENCIES
   coffee-rails (~> 4.2)
   devise
   dotenv
+  dotenv-rails
   dropzonejs-rails
   jbuilder (~> 2.5)
   jquery-mousewheel-rails
