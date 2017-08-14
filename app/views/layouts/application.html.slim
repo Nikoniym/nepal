@@ -14,12 +14,10 @@ html
     meta content="Дорогие друзья и не случайно прохожие. Радостно предлагаю Вашему драгоценному вниманию путешествие в волшебную страну - Непал. Страна, что самая близкая к Небу. Более 40% территории Непала расположено свыше 3000 метров над уровнем моря. И мы обязательно покорим эту высоту, а также остальные личностные пределы." property="og:description"
     meta content="#{image_url 'shared.jpg'}" property="og:image"
     meta property="og:url" content="#{request.original_url}"
-
+    = metrica_init
     = favicon_link_tag 'logo1.png'
     = csrf_meta_tags
     = stylesheet_link_tag    'application', media: 'all'
-    javascript:
-        <!--Yandex.Metrika counter--><script type="text/javascript">(function(d,w,c){(w[c]=w[c]||[]).push(function(){try{w.yaCounter45616473=new Ya.Metrika({id:45616473,clickmap:true,trackLinks:true,accurateTrackBounce:true})}catch(e){}});var n=d.getElementsByTagName("script")[0],s=d.createElement("script"),f=function(){n.parentNode.insertBefore(s,n)};s.type="text/javascript";s.async=true;s.src="https://mc.yandex.ru/metrika/watch.js";if(w.opera=="[object Opera]"){d.addEventListener("DOMContentLoaded",f,false)}else{f()}})(document,window,"yandex_metrika_callbacks");</script><noscript><div><img src="https://mc.yandex.ru/watch/45616473"style="position:absolute; left:-9999px;"alt=""/></div></noscript><!--/Yandex.Metrika counter-->
 
   body
     = render 'shared/menu'

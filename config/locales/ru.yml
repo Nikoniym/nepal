@@ -1,4 +1,12 @@
 ru:
+  social_share_button:
+    share_to: 'Поделиться'
+
+  active_admin:
+    crop:
+      open_crop_modal: 'Обрезать изображение'
+      save_cropped_image: 'Сохранить измениния'
+      cancel: 'Отмена'
   activerecord:
     attributes:
       registration:
