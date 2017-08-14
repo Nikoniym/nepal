@@ -48,7 +48,7 @@ gem 'jquery-mousewheel-rails'
 gem 'social-share-button'
 gem 'active_admin_jcrop'
 gem 'dotenv'
-gem "yandex_metrika"
+
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
