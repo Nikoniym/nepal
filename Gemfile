@@ -47,7 +47,6 @@ gem 'dropzonejs-rails'
 gem 'jquery-mousewheel-rails'
 gem 'social-share-button'
 gem 'active_admin_jcrop'
-gem 'dotenv'
 gem 'yandex-metrica-rails'
 gem 'dotenv-rails'
 
