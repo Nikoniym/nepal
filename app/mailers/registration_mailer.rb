@@ -3,6 +3,6 @@ class RegistrationMailer < ApplicationMailer
     @email = registaration.email
     @phone = registaration.phone
 
-    mail to: "worldnillin@gmail.com", subject: 'Заявка на тур'
+    mail to: "dreamingashealing@gmail.com", subject: 'Заявка на тур'
   end
 end
