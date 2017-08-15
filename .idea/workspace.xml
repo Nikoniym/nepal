@@ -2,28 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="209aa5b3-28f8-402b-910d-cb627309d275" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/feadback/active_admin.js.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/feadback/aos.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/feadback/home.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/feadback/images.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/feadback/lightgallery-all.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/feadback/main.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/feadback/ug-theme-tiles.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/feadback/unitegallery.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/javascripts/active_admin.js.coffee" afterPath="$PROJECT_DIR$/app/assets/javascripts/application/active_admin.js.coffee" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/javascripts/aos.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/application/aos.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/application/application.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/javascripts/feadback.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/feadback/feadback.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/javascripts/home.coffee" afterPath="$PROJECT_DIR$/app/assets/javascripts/application/home.coffee" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/javascripts/images.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/application/images.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/javascripts/lightgallery-all.min.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/application/lightgallery-all.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/javascripts/main.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/application/main.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/javascripts/ug-theme-tiles.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/application/ug-theme-tiles.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/javascripts/unitegallery.min.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/application/unitegallery.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.slim" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/feadback.html.slim" afterPath="$PROJECT_DIR$/app/views/layouts/feadback.html.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/assets.rb" afterPath="$PROJECT_DIR$/config/initializers/assets.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/feadback/feadback.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/feadback/feadback.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -69,8 +49,8 @@
       <file leaf-file-name="feadback.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/feadback/feadback.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="29" lean-forward="false" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+            <state relative-caret-position="72">
+              <caret line="4" column="12" lean-forward="false" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -976,7 +956,7 @@
       <workItem from="1502527373265" duration="4905000" />
       <workItem from="1502715761280" duration="16175000" />
       <workItem from="1502751818923" duration="4728000" />
-      <workItem from="1502784736759" duration="7530000" />
+      <workItem from="1502784736759" duration="7756000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1501942324256</created>
@@ -989,7 +969,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="161297000" />
+    <option name="totallyTimeSpent" value="161523000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1006,13 +986,13 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23880596" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3268817" sideWeight="0.48922056" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31612903" sideWeight="0.46766168" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36774194" sideWeight="0.30735213" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1652847" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.43062466" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Routes" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36539525" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31612903" sideWeight="0.5323383" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31612903" sideWeight="0.5323383" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36774194" sideWeight="0.6954118" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36774194" sideWeight="0.6926479" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40537634" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1445,8 +1425,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/feadback/feadback.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="29" lean-forward="false" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+        <state relative-caret-position="72">
+          <caret line="4" column="12" lean-forward="false" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
           <folding />
         </state>
       </provider>
