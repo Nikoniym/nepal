@@ -134,6 +134,7 @@ $(document).ready(function (){
         //анимируем переход на расстояние - top за 1500 мс
         $('body,html').animate({scrollTop: 0}, 1000);
     });
+
 });
 $(window).resize(function() {
     if ($(window).width() > 1920) {

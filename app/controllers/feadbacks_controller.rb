@@ -1,6 +1,6 @@
 class FeadbacksController < ApplicationController
+  layout "feadback"
   def create
-
     @reg =  Feadback.new(reg_params)
     if @reg.save
       flash[:message] = 'Будет опубликовано после проверки модератором'

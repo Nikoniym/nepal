@@ -49,6 +49,7 @@ gem 'social-share-button'
 gem 'active_admin_jcrop'
 gem 'yandex-metrica-rails'
 gem 'dotenv-rails'
+gem 'remotipart', '~> 1.2'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
