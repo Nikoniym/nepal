@@ -7,6 +7,7 @@ ActiveAdmin.register Registration do
     column :phone
     column :email
     column :confirmation
+    column :created_at
 
     actions
   end
