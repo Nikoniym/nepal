@@ -1,22 +1,22 @@
 
 $(document).ready(function (){
-    $('#program .up').click(function(){
-        if($('#program .up').text()=='Скрыть программу на каждый день'){
-            $('#program .up').text('Отобразить  программу на каждый день');
-            //$('#program .detail').animate( { height:"0px" },500);
-            $('#program .detail').toggle();
-            $('#program .block').toggle();
-
-        }else{
-            $('#program .up').text('Скрыть программу на каждый день')
-            //$('#program .detail').animate( { height:"2512px" },500);
-            $('#program .detail').toggle();
-            $('#program .block').toggle();
-        };
-
-
-
-    });
+    // $('#program .up').click(function(){
+    //     if($('#program .up').text()=='Скрыть программу на каждый день'){
+    //         $('#program .up').text('Отобразить  программу на каждый день');
+    //         //$('#program .detail').animate( { height:"0px" },500);
+    //         $('#program .detail').toggle();
+    //         $('#program .block').toggle();
+    //
+    //     }else{
+    //         $('#program .up').text('Скрыть программу на каждый день')
+    //         //$('#program .detail').animate( { height:"2512px" },500);
+    //         $('#program .detail').toggle();
+    //         $('#program .block').toggle();
+    //     };
+    //
+    //
+    //
+    // });
 
     // $(".nav").on("click","a", function (event) {
     //     //отменяем стандартную обработку нажатия по ссылке
@@ -82,7 +82,7 @@ $(document).ready(function (){
     });
 
 
-    $('.text').hover(function () {
+    $('.box:not(.last_child) .text').hover(function () {
         $(this).parent('.box').css('z-index','22');
         $(this).find('p').css('color','white');
         $(this).find('.text_all p').css('color','black');
