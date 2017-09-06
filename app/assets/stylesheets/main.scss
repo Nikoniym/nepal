@@ -400,18 +400,18 @@ h3{
 #program h3{
   margin-bottom: 26px;
 }
-#program .up:hover{
+.up:hover {
   color: #f4003e;
 }
-#program .up{
+.up {
   text-align: center;
   color: #5e92cb;
   font-style: italic;
   font-weight: bold;
   line-height: 21px;
-  margin-bottom: 22px;
+
   font-size: 18px;
-  margin-top: -20px;
+
   cursor: pointer;
   -webkit-transition: color .25s ease-in-out;
   -moz-transition: color .25s ease-in-out;
@@ -683,14 +683,17 @@ header .text{
   position:absolute;
   z-index: 998;
   /* top: -451px; */
-  bottom: 120px;
+  bottom: 58px;
   width: 980px;
   color: green;
   text-shadow: 0px 2px 2px rgb(68, 67, 67);
   h4 {
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
     margin-top: 35px;
+  }
+  .footer {
+    color: #bfbe27;
   }
 }
 header {

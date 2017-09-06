@@ -31,7 +31,10 @@ $(document).ready(function (){
     //     //анимируем переход на расстояние - top за 1500 мс
     //     $('body,html').animate({scrollTop: top}, 1000);
     // });
-
+    $('.up').click(function(){
+        $('p.hide').fadeIn();
+        $('.up').fadeOut();
+    });
     $('.fade').slick({
         infinite: true,
         speed: 2000,
