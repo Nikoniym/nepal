@@ -5,7 +5,7 @@
       .box data-aos="fade-up"
         = image_tag item.image.url(:thumb)
         .b
-        .text
+        .text class=('full_text' if item.description.size < 300)
           p.head = item.name
           p = truncate(item.description, :length => 300)
           .text_all

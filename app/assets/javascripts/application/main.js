@@ -85,7 +85,7 @@ $(document).ready(function (){
     });
 
 
-    $('.box:not(.last_child) .text').hover(function () {
+    $('.box:not(.last_child) .text:not(.full_text)').hover(function () {
         $(this).parent('.box').css('z-index','22');
         $(this).find('p').css('color','white');
         $(this).find('.text_all p').css('color','black');
