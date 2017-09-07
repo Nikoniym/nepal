@@ -428,12 +428,11 @@ h3{
   /* border-radius: 52%; */
   box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
-#program .box:nth-child(3) img, #program .box:nth-child(5) img{
+#program .box:nth-child(3) img, #program .box:nth-child(5) img, #program .box:nth-child(7) img{
   float:right;
 }
-#program .box:nth-child(3) .text{
-}
-#program .box:nth-child(3) .b,#program .box:nth-child(5) .b{
+
+#program .box:nth-child(3) .b,#program .box:nth-child(5) .b, #program .box:nth-child(7) .b{
   left: 475px;
 }
 #program .box .text{
